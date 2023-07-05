@@ -1,13 +1,11 @@
-import 'package:bech32/bech32.dart';
+import 'package:bip32_bip44/dart_bip32_bip44.dart' as bip32_bip44;
+import 'package:bip39/bip39.dart' as bip39;
 import 'package:dart_nostr/nostr/core/constants.dart';
 import 'package:dart_nostr/nostr/core/key_pairs.dart';
-import 'package:hex/hex.dart';
 
 import '../../core/utils.dart';
 import '../../dart_nostr.dart';
 import 'base/keys.dart';
-import 'package:bip32_bip44/dart_bip32_bip44.dart' as bip32_bip44;
-import 'package:bip39/bip39.dart' as bip39;
 
 /// {@template nostr_keys}
 /// This class is responsible for generating key pairs and deriving public keys from private keys..

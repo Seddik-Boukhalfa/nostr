@@ -1,16 +1,14 @@
 import 'dart:convert';
+import 'dart:math';
 import 'dart:typed_data';
 
 import 'package:bech32/bech32.dart';
+import 'package:convert/convert.dart';
 import 'package:hex/hex.dart';
 import 'package:http/http.dart' as http;
-import 'dart:math';
-
-import 'package:convert/convert.dart';
 
 import '../../core/constants.dart';
 import '../../core/utils.dart';
-import '../../dart_nostr.dart';
 import '../../model/tlv.dart';
 import '../tlv/tlv_utils.dart';
 import 'base/base.dart';
